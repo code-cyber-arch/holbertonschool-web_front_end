@@ -1,7 +1,3 @@
-html {
-    scroll-behavior: smooth;
-}
-
 :root {
     --color-primary: #d73953;
     --color-black: #090909;
@@ -28,6 +24,7 @@ html {
 }
 
 html {
+    scroll-behavior: smooth;
     font-size: 62.5%;
 }
 
@@ -44,20 +41,20 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: var(--font-weight-bold);
 }
 
-a[href] {
+a:link {
     color: var(--text-color);
     text-decoration: none;
 }
 
-a[href]:visited {
+a:visited {
     font-style: italic;
 }
 
-a[href]:hover {
+a:hover {
     text-decoration: underline;
 }
 
-a[href]:active {
+a:active {
     background-color: var(--color-light-grey);
 }
 

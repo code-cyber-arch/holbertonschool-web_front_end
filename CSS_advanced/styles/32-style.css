@@ -657,9 +657,9 @@ ul.row {
     z-index: -1;
 }
 
-.card-work:hover .card-image {
+.card-work:hover .card-image{
     transform: scale(1.2);
-    transition: transform var(--transition-duration) var(--transition-cubic-bezier);
+    transition: var(--transition-duration) var(--transition-cubic-bezier);
 }
 
 .card-work:hover .card-outer {

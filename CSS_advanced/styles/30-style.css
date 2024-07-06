@@ -590,7 +590,7 @@ ul.row {
     overflow: hidden;
 }
 
-.card-work .card-image img {
+.card-work .card-image img{
     height: 30rem;
     width: 100%;
     object-fit: cover;
@@ -621,4 +621,17 @@ ul.row {
     display: block;
     text-decoration: none;
     padding-top: 45%;
+}
+
+.card-work .card-title a::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: "";
+}
+
+.card-work:hover .card-title {
+    opacity: 1;
 }
